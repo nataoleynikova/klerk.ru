@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      'sm': {'min': '375px', 'max': '500px'},
-      '3xl': '1680px',
+      'sm': {'min': '375px', 'max': '1199px'},
+      '3xl': {'min': '1200px', 'max': '1800px'},
     },
   },
   plugins: [
